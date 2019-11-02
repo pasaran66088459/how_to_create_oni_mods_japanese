@@ -106,7 +106,7 @@
 　OSに応じてダウンロードし、インストールする。
 
 ### 画像作成ソフトの用意
-　画像作成ソフトは何でも構わないが、PNG形式でアルファ値が出力できる(透過PNG)ものを用意する事。
+　画像作成ソフトは何でも構わないが、PNG形式でアルファ値が出力できる(透過PNG)ものを用意する事。商用(有料)ソフトで有名なところでは、PhotoshopやCLIP Studioなどがある。
 　フリーソフトでは以下のようなソフトがある。
 - ![FireAlpaca](pics/icon_FireAlpaca.png)][FireAlpaca PGN Inc.](https://firealpaca.com/ja/)
 - ![Krita](pics/icon_Krita.png)[Krita Desktop](https://krita.org/jp/)
