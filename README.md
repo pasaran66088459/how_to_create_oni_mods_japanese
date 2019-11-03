@@ -20,7 +20,7 @@ how to create ONI mods (japanese edition)
 1. [UltraLightを作ってみる(Darth Nihilus氏動画)](making_ultra_lights.md)
 1. [MODディレクトリの構成](mod_directory_hierarchy.md)
 1. [グラフィック及びアニメーションの追加・変更](changing_or_adding_graphics.md)
-1. ゲームソースの構造
+1. [ゲームソースの構造](in_game_structure.md)
 1. [Harmonyフレームワークの使い方](harmony_flamework_guide.md)
 
 

@@ -11,6 +11,8 @@
 1. [Spriter形式のアニメーションファイルからKlei方式アセットへの変換](#convert_scml_to_kanim)
 1. [SpriterでKleiアニメーションを作るさいの注意事項](#caution_about_kanim)
 
+![Spriter 空調設備編集画面](pics\coag_spriter6.png)
+
 
 <a name="convert_kanim_to_scml"></a>
 ## 展開した既存の(Klei方式)アセットファイルからSpriter形式への変換
@@ -94,4 +96,18 @@ JCL      - 2858e3f001 based on jdk-13+33)
 
 
 <a name="caution_about_kanim"></a>
-## SpriterでKleiアニメーションを作るさいの注意事項
+## SpriterでKleiアニメーションを作るさいの注意事項 **重要**
+
+　Kleiアニメーション形式には色々と制限があり、Spriterプロジェクトを完全にKleiアニメーションへ変換する事はできない。以下、Kleiアニメーションに変換するために **必要な要件** を述べる
+
+- 全てのスプライトパーツファイル(pngファイル)のファイル名は、 **接尾にアンダースコアとナンバリング(`_0`)** が付与されている事(例：object_0.png)。ナンバリングは必ず0から開始する。
+  - 同名の（複数のバージョンがある）スプライトパーツは、`_0`、`_1`のように昇順に番号を振る事。
+  - 別名のスプライトパーツは必ず`_0`からナンバリングされる事(例：object_0.png、ui_0.png)。
+- Kleiアニメーション形式はSpriterほど細かいタイミングでのアニメーションができない。そのため、アニメーションを編集するさいは必ず **Timeline Snapping Optionsを有効にして33msに設定** する事。
+- 個々のスプライトに **スプライトパレットから独自のpivotポイントを設定しない** こと。Kleiアニメーションは個別のpivot情報を全シーンを通して一貫して処理することができない。
+  - 回転軸の変更は、各アニメーションを編集する段階で **必ず手作業(マウスドラッグ)** で毎回行う事。
+
+　以下は行なってはいけないpovot設定操作の画像になる。
+
+![Spriter スプライトをダブルクリック](pics\coag_spriter4.png)
+![Sprite Timeline Snapping Optionsダイアログ](pics\coag_spriter5.png)
