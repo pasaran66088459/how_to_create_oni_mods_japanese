@@ -11,7 +11,7 @@
 1. [Spriter形式のアニメーションファイルからKlei方式アセットへの変換](#convert_scml_to_kanim)
 1. [SpriterでKleiアニメーションを作るさいの注意事項](#caution_about_kanim)
 
-![Spriter 空調設備編集画面](pics\coag_spriter6.png)
+![Spriter 空調設備編集画面](pics/coag_spriter6.png)
 
 
 <a name="convert_kanim_to_scml"></a>
@@ -109,5 +109,5 @@ JCL      - 2858e3f001 based on jdk-13+33)
 
 　以下は行なってはいけないpovot設定操作の画像になる。
 
-![Spriter スプライトをダブルクリック](pics\coag_spriter4.png)
-![Sprite Timeline Snapping Optionsダイアログ](pics\coag_spriter5.png)
+![Spriter スプライトをダブルクリック](pics/coag_spriter4.png)
+![Sprite Timeline Snapping Optionsダイアログ](pics/coag_spriter5.png)
