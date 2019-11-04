@@ -5,9 +5,13 @@
 <a name="the_basic"></a>
 ## 最も基本的な事
 
-### 全てのprefabはIEntityConfigを継承したクラスとして定義する
+### 全ての建築物のprefabはIBuildingConfigを継承したクラスとして定義する
 
-　MODも含め、ONIの全ゲーム内prefabは **IEntityConfig** インタフェースを継承する必要がある。同インタフェースを継承したprefab(候補)クラスは **EntityConfigManager** クラスが全て自動的にゲーム内にGameObjectとして展開される。
+　MODも含め、ONIの全ゲーム内アイテムのprefabは **IBuildingConfig** インタフェースを継承する必要がある。同インタフェースを継承したprefab(候補)クラスは **BuildingConfigManager** クラスが全て自動的にゲーム内にGameObjectとして展開する。
+
+### 全てのアイテムのprefabはIEntityConfigを継承したクラスとして定義する
+
+　MODも含め、ONIの全ゲーム内アイテムのprefabは **IEntityConfig** インタフェースを継承する必要がある。同インタフェースを継承したprefab(候補)クラスは **EntityConfigManager** クラスが全て自動的にゲーム内にGameObjectとして展開する。
 
 ### ModUtilライブラリを使用する
 
