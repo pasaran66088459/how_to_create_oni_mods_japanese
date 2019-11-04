@@ -1,6 +1,8 @@
 # UltraLightを作ってみる
 
-　この章では、Darth Nihilus氏の公開している動画手順に従って、UltraLightMOD(光の届く範囲が広すぎるチート級のライト "Ultra Light" を追加するMOD)が完成するまでの手順を示す。
+　この章では、Darth Nihilus氏の公開している動画手順に従って、UltraLightMODが完成するまでの手順を示す。
+
+　UltraLightMODでは、光の届く範囲が広すぎるチート級のライト "Ultra Light" を追加実装する。
 
 1. [オリジナルの動画](#movie)
 1. [プロジェクトの新規作成](#new_project)
@@ -27,6 +29,7 @@
 ## プロジェクトの新規作成
 
 　動画ではニーズの確認から始まり、既存のMODプロジェクトを **いきなりコピー** するところから始まる。
+
 　ここでは新規プロジェクトを起こしていく。
 
 　まずVisual Studio 2019を立ち上げ、メニューの **[ファイル]** - **[新規作成]** - **[プロジェクト]** を選択する。
@@ -34,6 +37,7 @@
 ![Visual Studio 新規作成](pics/mul_project1.png)
 
 　Hello World の章と同じ手順で、空の **クラスライブラリ(.NET Framework 3.5)** プロジェクトを生成する。
+
 　プロジェクト名は **UltraLight** とする。
 
 ![Visual Studio プロジェクトの新規作成1](pics/mul_project2.png)
@@ -193,7 +197,9 @@ namespace CritterHolder
 [動画：CeilingLightConfigからコードをコピー](https://youtu.be/kZwEF2DrZ0k?t=225) (3:45 ～)
 
 　前もってUltraLightConfigクラスを空にしておく。
+
 　dnSpyを使って(もしくは展開済みのゲームのソースから)、CeilingLightConfigクラスのコードを(クラス名以外丸ごと)転記する。
+
 　※ IBuildingConfigからの継承部分は忘れがちなので注意！
 
 <a name="edit_configure"></a>
@@ -202,6 +208,7 @@ namespace CritterHolder
 [動画：UltraLightConfigの設定値調整](https://youtu.be/kZwEF2DrZ0k?t=271)（4:31 ～）
 
 　ゲーム内設定値に関わるコードを修正する。
+
 　UltraLightConfigクラス内のコードを(動画の通りに)修正する。
 
 　また、コード内にあるID文字列をUltraLightに修正する。
@@ -217,7 +224,7 @@ namespace CritterHolder
 
 [動画：新たな定数値の追加](https://youtu.be/kZwEF2DrZ0k?t=442)（7:22 ～）
 
-照明の明るさ(lux)と範囲(radius/range)の設定値については、将来的な変更を容易にするために、また定数値が分散してるため、まとめて定数クラスとして定義してしまう。
+　照明の明るさ(lux)と範囲(radius/range)の設定値については、将来的な変更を容易にするために、また定数値が分散してるため、まとめて定数クラスとして定義してしまう。
 
 <a name="change_shape"></a>
 ## 光の形(光り方)を変更する
@@ -232,6 +239,7 @@ namespace CritterHolder
 [動画：ライトを建造プランに乗せる](https://youtu.be/kZwEF2DrZ0k?t=589)（9:49 ～）
 
 　ライト(建築物)を建造できるように、ゲーム内カテゴリー **[ロケット]** の建造一覧に追加する。
+
 　また同様に、研究カテゴリにも追加する。
 
 ### 最終的な各コード

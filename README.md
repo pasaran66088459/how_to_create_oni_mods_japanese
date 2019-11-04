@@ -5,10 +5,13 @@ how to create ONI mods (japanese edition)
 ## はじめに
 
 　このドキュメントは、主に日本人開発者に向けて書かれた、PCゲーム **[Oxygen Not Included © Klei Entertainment](https://www.klei.com/games/oxygen-not-included)** 用MODを作製するための情報を記述した文章です。
+
 　このドキュメントがMODをこれから作ろうとしている、もしくは作っているMOD開発者の皆さんの石杖になれば幸いです。
+
 　なお、このドキュメントは自由にforkし再編集・追記して構いません。原文著者本人も拾えるかぎりはmergeしていく方針です。
 
 　※ 以下、ドキュメントの簡便化のため敬体（ですます調）表記を省略する。
+
 　※ ゲーム名はONIと略す。
 
 

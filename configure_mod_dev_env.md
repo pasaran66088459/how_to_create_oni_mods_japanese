@@ -12,6 +12,7 @@
 ### Windowsの場合
 
 　Windows Store以外でインストールしたアプリケーションは、おおよそ次の二箇所のディレクトリに保存される。
+
 　ドライブ名は任意に指定・変更してないかぎりはCドライブになる。
 
 - [ドライブ名:]\Program Files (x86)
@@ -36,11 +37,13 @@
   - [ホームフォルダ]/.config/Application Support/Klei/OxygenNotIncluded/mod
 
 　当該ディレクトリ内に配置されたMODはONI起動時に自動的に読み込まれ、ゲーム内メニューの[MOD]でサブスクライブできるようになる。
+
 　管理を容易にするため、devなど適当な名前のディレクトリをつくり、その中に開発した（中の）MODをまとめて配置すると良い。
 
 #### Steamで購入した場合の注意点
 
 　mods内にある **Steam** ディレクトリの中にはSteamワークショップで導入したMODが数字名のディレクトリの下に配置されている。
+
 　同ディレクトリ内には開発したMODはなるべく配置しない方が良さそう。
 
 <a name="programming-environment"></a>
@@ -55,6 +58,7 @@
 [Microsoft .NET Framework 3.5](https://dotnet.microsoft.com/download/thank-you/net35-sp1)
 
 　上記ページ[ダウンロード]よりダウンロードし、インストールする。インストールには数分かかる。
+
 　Windows10を使用している場合、コントロール・パネルからインストールできる。コントロール・パネルを開き、 **[プログラムと機能]** をクリック、 **Windowsの機能の有効化または無効化** をクリックして出てくるダイアログボックスで **.NET Framework 3.5 (.NET 2.0および3.0を含む)** をチェック(黒い■の状態に)する。
 
 ![Windows10で.NET 3.5をインストール](pics/install_net_35.png)
@@ -70,6 +74,7 @@
 #### ![dnSpy](pics/icon_dnSpy.png)dnSpy のインストール
 
 　dnSpyは、0x04d氏の作製したC#製DLL用逆アセンブルツール。
+
 　ONIのオリジナルソースを適時解析するために必要になる。MODは基本的にオリジナルソースに被せるかたちで実装していくため、必要になる。
 
 [0xd4d/dnSpy(releases)](https://github.com/0xd4d/dnSpy/releases)
@@ -95,6 +100,7 @@
 ### ![uTinyRipper](pics/icon_uTinyRipper.png)uTinyRipper のインストール
 
 　mafaca氏の作製したアセットバンドルファイルから各アセットファイルを取り出したり、アセットバンドルファイルを作成することができるツール。ONIのアセットバンドルファイルから各アセットファイルを展開するために使用する。
+
 　Windows用のツールなので、Mac等は別途MONO環境でコンパイルするか別の手段が必要になる。
 
 [mafaca/UtinyRipper](https://github.com/mafaca/UtinyRipper)
@@ -108,7 +114,9 @@
 #### Java13 JDKのインストール
 
 　K-ParserはJava 9以上のバージョンのJDKを必要とする。現行バージョン(JDK 13)をダウンロードし、インストールする。
+
 　※ なお、Java 8を最後にOracleからJREのみの配布は行われていない。
+
 　JDK 13はオープンソースとして、Oracleほか各社から配布されている。好みに応じてダウンロード、インストールする。
 
 - [Oracle JDK](https://www.oracle.com/technetwork/java/javase/downloads/jdk13-downloads-5672538.html)
@@ -137,8 +145,11 @@
 ### ![Spriter](pics/icon_Spriter.png)Spriter のインストール
 
 　Spriterは、BrashMonkey LLC 社製の2Dアニメーションエディタ。Flashでお馴染みのスプライトアニメーションが作れる。
+
 　ONIのMODで画像やアニメーションを作成するさいに必要なアセット変換ツール、KParserが唯一対応している。
+
 　有償であるSpriter Proのほか、無償のSpriterを配布している。他にゲームを作製しているなどヘビーユーザーでなければこの無償版で十分な機能を備えている。
+
 　Windows版のほか、OSX版、Linux版を配布している。
 
 [Download Spriter (BrashMonkey)](https://brashmonkey.com/download-spriter-pro/)
@@ -148,6 +159,7 @@
 ### 画像作成ソフトの用意
 
 　画像作成ソフトは何でも構わないが、PNG形式でアルファ値が出力できる(透過PNG)ものを用意する事。商用(有料)ソフトで有名なところでは、PhotoshopやCLIP Studioなどがある。
+
 　フリーソフトでは以下のようなソフトがある。
 
 - ![FireAlpaca](pics/icon_FireAlpaca.png)][FireAlpaca PGN Inc.](https://firealpaca.com/ja/)

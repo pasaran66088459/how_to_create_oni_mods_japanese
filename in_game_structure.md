@@ -7,7 +7,7 @@
 
 ### 全ての建築物のprefabはIBuildingConfigを継承したクラスとして定義する
 
-　MODも含め、ONIの全ゲーム内アイテムのprefabは **IBuildingConfig** インタフェースを継承する必要がある。同インタフェースを継承したprefab(候補)クラスは **BuildingConfigManager** クラスが全て自動的にゲーム内にGameObjectとして展開する。
+　MODも含め、ONIの全ゲーム内建造物(構造物)のprefabは **IBuildingConfig** インタフェースを継承する必要がある。同インタフェースを継承したprefab(候補)クラスは **BuildingConfigManager** クラスが全て自動的にゲーム内にGameObjectとして展開する。
 
 ### 全てのアイテムのprefabはIEntityConfigを継承したクラスとして定義する
 
@@ -16,6 +16,7 @@
 ### ModUtilライブラリを使用する
 
 　**ModUtil** クラスは、まさしくMODで使用できるようにKlei側で用意してくれたユーティリティクラスで、内容はStaticなメソッドの集合体になる。
+
 　ModUtilで提供されている機能（メソッド）は次のリストの通り。
 
 - `void AddBuildingToPlanScreen(HashedString category, string building_id)`
