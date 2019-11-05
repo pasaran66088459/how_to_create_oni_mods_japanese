@@ -25,6 +25,7 @@ how to create ONI mods (japanese edition)
 1. [グラフィック及びアニメーションの追加・変更](changing_or_adding_graphics.md)
 1. [ゲームソースの構造](in_game_structure.md)
 1. [Harmonyフレームワークの使い方](harmony_flamework_guide.md)
+1. [Tips](tips.md)
 
 
 ## ブックマーク
