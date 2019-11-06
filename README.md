@@ -25,13 +25,15 @@ how to create ONI mods (japanese edition)
 1. [グラフィック及びアニメーションの追加・変更](changing_or_adding_graphics.md)
 1. [ゲームソースの構造](in_game_structure.md)
 1. [Harmonyフレームワークの使い方](harmony_flamework_guide.md)
+1．[Kleiから提供されているMOD機能](klei_mod_flamework_guide.md)
 1. [Tips](tips.md)
 
 
 ## ブックマーク
 
+- [Klei Entertainment 公式](https://www.klei.com/games/oxygen-not-included)
 - [公式フォーラム - Mods and Tools](https://forums.kleientertainment.com/forums/forum/204-oxygen-not-included-mods-and-tools/)
-
+- [Oxygen Not Included JP プレイヤーズノート](https://oni-jp.playing.wiki/)
 
 ## その他
 
