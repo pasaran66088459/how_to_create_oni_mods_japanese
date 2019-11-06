@@ -25,7 +25,7 @@ how to create ONI mods (japanese edition)
 1. [グラフィック及びアニメーションの追加・変更](changing_or_adding_graphics.md)
 1. [ゲームソースの構造](in_game_structure.md)
 1. [Harmonyフレームワークの使い方](harmony_flamework_guide.md)
-1．[Kleiから提供されているMOD機能](klei_mod_flamework_guide.md)
+1. [Kleiから提供されているMOD機能](klei_mod_flamework_guide.md)
 1. [Tips](tips.md)
 
 
@@ -37,8 +37,8 @@ how to create ONI mods (japanese edition)
 
 ## その他
 
-[GitHubマークダウン表記マスター](https://guides.github.com/features/mastering-markdown/)
-
+- [GitHubマークダウン表記マスター](https://guides.github.com/features/mastering-markdown/)
+- [GitHubでテキストドキュメントを公開する(Qiita)](https://qiita.com/hkusu/items/847718366af992439b3f)
 
 ## ライセンス
 
