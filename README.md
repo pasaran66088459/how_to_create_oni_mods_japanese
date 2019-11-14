@@ -24,8 +24,9 @@ how to create ONI mods (japanese edition)
 1. [MODディレクトリの構成](mod_directory_hierarchy.md)
 1. [グラフィック及びアニメーションの追加・変更](changing_or_adding_graphics.md)
 1. [ゲームソースの構造](game_structure_detail/in_game_structure.md)
+  1. [Kleiから提供されているMOD機能](game_structure_detail/klei_mod_flamework_guide.md)
+  1. [食料関係のクラス構成](game_structure_detail/edible_classes.md)
 1. [Harmonyフレームワークの使い方](harmony_flamework_guide.md)
-1. [Kleiから提供されているMOD機能](game_structure_detail/klei_mod_flamework_guide.md)
 1. [Tips](tips.md)
 
 
