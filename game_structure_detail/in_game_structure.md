@@ -1,8 +1,8 @@
 # ゲームソースの構造
 
 1. [最も基本的な事](#the_basic)
-1. [Kleiから提供されているMOD機能](game_structure_detail/klei_mod_flamework_guide.md)
-1. [食料関係のクラス構成](game_structure_detail/edible_classes.md)
+1. [Kleiから提供されているMOD機能](klei_mod_flamework_guide.md)
+1. [食料関係のクラス構成](edible_classes.md)
 
 ※ ModUtilライブラリほか、MODのためにKleiが用意した機能については、[HarmonyにプラスしてKleiから提供される機能](klei_mod_flamework_guide.md)を参照。
 
