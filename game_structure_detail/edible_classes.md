@@ -58,7 +58,7 @@ public void OnSpawn(GameObject inst)
 　各ConfigクラスのConfigureRecipesメソッドで生産できる食料のComplexRecipeを一括設定しているので、ComplexRecipeを設定する債の参考になる。
 
 クラス | イベントハンドラクラス | 要約
--------+--------------------+--------------------
+-------|--------------------|--------------------
 MicrobeMusherConfig | MicrobeMusher | 微生物粉砕機
 CookingStationConfig | CookingStation | 電気グリル
 GourmetCookingStationConfig | GourmetCookingStation | ガスレンジ
@@ -66,7 +66,7 @@ GourmetCookingStationConfig | GourmetCookingStation | ガスレンジ
 ## 食料
 
 クラス | 要約
--------+--------------------
+-------|--------------------
 CookedEggConfig | オムレツ
 MushroomWrapConfig | キノコのレタス巻き
 GrilledPrickleFruitConfig | グリルベリー
